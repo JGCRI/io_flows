@@ -1,0 +1,38 @@
+sector,logit,subsector
+Residue,-6,None
+OtherMeat_Fish,-6,None
+Pasture,-6,None
+geothermal,-6,None
+elec_Gen_III,-3,None
+elec_GEN_II_LWR,-3,None
+uranium,-6,None
+DDGS,-3,None
+coal,-3,None
+natural gas,-3,None
+crude oil,-6,None
+OilCrop feedcake,-6,None
+Rapeseed,-6,None
+Rapeseed feedcake,-6,None
+Rice,-6,None
+RootTuber,-6,None
+Soybean,-6,None
+Soybean feedcake,-3,None
+SugarCrop,-6,None
+Wheat,-6,None
+traditional biomass,-6,None
+biomass,-6,None
+unconventional oil,-3,None
+water_td_irr_X_W,0,None
+water_td_irr_X_C,0,None
+municipal water,-6,municipal water
+elec_GEN_II_LWR,-3,GEN_II_LWR
+elec_coal (IGCC),-10,coal (IGCC)
+elec_coal (conv pul),-10,coal (conv pul)
+elec_biomass (conv),-10,biomass (conv)
+elec_biomass (IGCC),-10,biomass (IGCC)
+elec_gas (CC),-10,gas (CC)
+elec_gas (steam/CT),-10,gas (steam/CT)
+elec_geothermal,-6,geothermal
+elec_refined liquids (CC),-10,refined liquids (CC)
+elec_refined liquids (steam/CT),-10,refined liquids (steam/CT)
+traded unconventional oil,-3,X unconventional oil

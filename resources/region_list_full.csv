@@ -1,0 +1,700 @@
+regions,length
+Northeast South America-South Atlantic Coast,44
+North Argentina-South Atlantic Coast,36
+South Argentina-South Atlantic Coast,36
+Adriatic Sea-Greece-Black Sea Coast,35
+Uruguay-Brazil-South Atlantic Coast,35
+Africa-Red Sea-Gulf of Aden Coast,33
+North Brazil-South Atlantic Coast,33
+East Brazil-South Atlantic Coast,32
+European Free Trade Association,31
+Bay of Bengal-North East Coast,30
+Colombia-Ecuador-Pacific Coast,30
+Bo Hai-Korean Bay-North Coast,29
+Spain-Portugal-Atlantic Coast,29
+Central America and Caribbean,29
+Caspian Sea-South West Coast,28
+Mediterranean Sea-East Coast,28
+Central Patagonia Highlands,27
+Spain-South and East Coast,26
+Africa-East Central Coast,25
+Africa-Indian Ocean Coast,25
+Mediterranean Sea Islands,25
+Mediterranean South Coast,25
+North Chile-Pacific Coast,25
+Plateau of Tibet Interior,25
+South Chile-Pacific Coast,25
+Pacific and Arctic Coast,24
+Palau and East Indonesia,24
+Russia-Barents Sea Coast,24
+South Africa-South Coast,24
+Southern Central America,24
+Africa-North West Coast,23
+Atlantic Ocean Seaboard,23
+Lower Mississippi River,23
+Russia-South East Coast,23
+Scandinavia-North Coast,23
+South Africa-West Coast,23
+Caspian Sea-East Coast,22
+Gulf of Thailand Coast,22
+India North East Coast,22
+Isthmus of Tehuantepec,22
+Mexico-Northwest Coast,22
+Papua New Guinea Coast,22
+South America-Colorado,22
+South America_Northern,22
+South America_Southern,22
+Africa-North Interior,21
+Africa-South Interior,21
+Australia-North Coast,21
+Australia-South Coast,21
+Black Sea-North Coast,21
+Black Sea-South Coast,21
+Denmark-Germany Coast,21
+North and South Korea,21
+Northwest Territories,21
+Pacific Central Coast,21
+South China Sea Coast,21
+South Pacific Islands,21
+Arctic Ocean Islands,20
+Australia-East Coast,20
+Australia-West Coast,20
+Eastern Jordan-Syria,20
+Lower Colorado River,20
+Upper Colorado River,20
+Grijalva-Usumacinta,19
+Saskatchewan-Nelson,19
+Siberia-North Coast,19
+South Atlantic Gulf,19
+Arkansas White Red,18
+Australia-Interior,18
+France-South Coast,18
+North Borneo Coast,18
+Peninsula Malaysia,18
+Persian Gulf Coast,18
+Peru-Pacific Coast,18
+Red Sea-East Coast,18
+Siberia-West Coast,18
+Africa-West Coast,17
+Arabian Peninsula,17
+Arabian Sea Coast,17
+Caspian Sea Coast,17
+England and Wales,17
+France-West Coast,17
+Ganges-Bramaputra,17
+India South Coast,17
+Pacific Northwest,17
+Upper Mississippi,17
+Yucatan Peninsula,17
+Baltic Sea Coast,16
+California River,16
+Hudson Bay Coast,16
+India East Coast,16
+India West Coast,16
+Irian Jaya Coast,16
+Italy-East Coast,16
+Italy-West Coast,16
+Rio Grande River,16
+Texas Gulf Coast,16
+Tigris-Euphrates,16
+Ziya He-Interior,16
+PersianGulf_Peat,16
+Baja California,15
+Caribbean Coast,15
+Hamun-i-Mashkel,15
+Mexico-Interior,15
+Salinas Grandes,15
+Sinai Peninsula,15
+Solomon Islands,15
+Tennessee River,15
+Africa_Northern,15
+Africa_Southern,15
+ArabianSea_Peat,15
+ArkWhtRedR_Peat,15
+BarentsSea_Peat,15
+BorneoCstN_Peat,15
+California_Peat,15
+ChurchillR_Peat,15
+ColEcuaCst_Peat,15
+FranceCstS_Peat,15
+FranceCstW_Peat,15
+GreatBasin_Peat,15
+GreatLakes_Peat,15
+GuineaGulf_Peat,15
+IrrawaddyR_Peat,15
+Kalimantan_Peat,15
+Madagascar_Peat,15
+MagdalenaR_Peat,15
+MurrayDrlg_Peat,15
+NewZealand_Peat,15
+Papaloapan_Peat,15
+RiftValley_Peat,15
+RioLaPlata_Peat,15
+SabarmatiR_Peat,15
+SAmerCstNE_Peat,15
+SolomonIsl_Peat,15
+SpainCstSE_Peat,15
+TocantinsR_Peat,15
+VietnamCst_Peat,15
+Gulf of Guinea,14
+Hong-Red River,14
+Kara Sea Coast,14
+La Puna Region,14
+Missouri River,14
+Murray-Darling,14
+Northern Dvina,14
+Tarim Interior,14
+Viet Nam-Coast,14
+Africa_Eastern,14
+Africa_Western,14
+Europe_Eastern,14
+Southeast Asia,14
+AdnNicIsl_Peat,14
+AdrBlkSea_Peat,14
+AfrCstSSW_Peat,14
+AmuDaryaR_Peat,14
+AngolaCst_Peat,14
+BalticSea_Peat,14
+BengalBay_Peat,14
+BlackSeaN_Peat,14
+BlackSeaS_Peat,14
+BrahmaniR_Peat,14
+Caribbean_Peat,14
+CaspianNE_Peat,14
+CaspianSW_Peat,14
+ChileCstN_Peat,14
+ChileCstS_Peat,14
+DniesterR_Peat,14
+DnkGrmCst_Peat,14
+EmsWeserR_Peat,14
+FarahrudR_Peat,14
+GodavariR_Peat,14
+GuadianaR_Peat,14
+HamuMashR_Peat,14
+HudsonBay_Peat,14
+IberiaCst_Peat,14
+IrianJaya_Peat,14
+ItalyCstE_Peat,14
+ItalyCstW_Peat,14
+JavaTimor_Peat,14
+Mackenzie_Peat,14
+MahanadiR_Peat,14
+MalaysiaP_Peat,14
+MissouriR_Peat,14
+NewCaledn_Peat,14
+PacArctic_Peat,14
+ParnaibaR_Peat,14
+Patagonia_Peat,14
+PolandCst_Peat,14
+RioBalsas_Peat,14
+RioGrande_Peat,14
+SAmerCstN_Peat,14
+SaoFrancR_Peat,14
+SChinaSea_Peat,14
+SittaungR_Peat,14
+SyrDaryaR_Peat,14
+Tehuantpc_Peat,14
+TigrEuphR_Peat,14
+UsaColoRN_Peat,14
+UsaColoRS_Peat,14
+Gobi Interior,13
+Namibia-Coast,13
+Pampas Region,13
+Sao Francisco,13
+Shebelli-Juba,13
+Europe_Non_EU,13
+AfrCstNE_Peat,13
+AfrCstNW_Peat,13
+AfrCstSE_Peat,13
+AfrCstSW_Peat,13
+ArabianP_Peat,13
+ArgColoR_Peat,13
+CaspianE_Peat,13
+CauveryR_Peat,13
+ChaoPhrR_Peat,13
+ChinaCst_Peat,13
+DaugavaR_Peat,13
+DnieperR_Peat,13
+EJrdnSyr_Peat,13
+EngWales_Peat,13
+GrijUsuR_Peat,13
+GuadalqR_Peat,13
+HuangHeR_Peat,13
+IndCstNE_Peat,13
+KrishnaR_Peat,13
+LBalkash_Peat,13
+LimpopoR_Peat,13
+MeditIsl_Peat,13
+MexCstNW_Peat,13
+MissppRN_Peat,13
+MissppRS_Peat,13
+NarmadaR_Peat,13
+OrinocoR_Peat,13
+PapuaCst_Peat,13
+RioLerma_Peat,13
+RioVerde_Peat,13
+RusCstSE_Peat,13
+ScheldtR_Peat,13
+Scotland_Peat,13
+SenegalR_Peat,13
+ShebJubR_Peat,13
+SiberiaN_Peat,13
+SiberiaW_Peat,13
+SriLanka_Peat,13
+StLwrncR_Peat,13
+Sulawesi_Peat,13
+Tasmania_Peat,13
+TexasCst_Peat,13
+ThaiGulf_Peat,13
+UsaCstNE_Peat,13
+UsaCstSE_Peat,13
+UsaPacNW_Peat,13
+XunJiang_Peat,13
+YeniseiR_Peat,13
+YucatanP_Peat,13
+ZambeziR_Peat,13
+Angola-Coast,12
+Central Iran,12
+Guadalquivir,12
+Lake Balkash,12
+Mar Chiquita,12
+Mid Atlantic,12
+Poland Coast,12
+Central Asia,12
+Australia_NZ,12
+South Africa,12
+AfrCstE_Peat,12
+AfrCstS_Peat,12
+AfrCstW_Peat,12
+AfrIntN_Peat,12
+AfrIntS_Peat,12
+AmazonR_Peat,12
+ArgCstN_Peat,12
+ArgCstS_Peat,12
+AusCstE_Peat,12
+AusCstN_Peat,12
+AusCstS_Peat,12
+AusCstW_Peat,12
+BengalW_Peat,12
+BrzCstE_Peat,12
+BrzCstN_Peat,12
+BrzCstS_Peat,12
+CntAmer_Peat,12
+DanubeR_Peat,12
+DeadSea_Peat,12
+DvinaRN_Peat,12
+Finland_Peat,12
+FraserR_Peat,12
+GangesR_Peat,12
+Gironde_Peat,12
+Helmand_Peat,12
+Iceland_Peat,12
+IndCstE_Peat,12
+IndCstS_Peat,12
+IndCstW_Peat,12
+Ireland_Peat,12
+KaraSea_Peat,12
+MarChiq_Peat,12
+MexBaja_Peat,12
+MexCstW_Peat,12
+MexGulf_Peat,12
+NelsonR_Peat,12
+OrangeR_Peat,12
+PennarR_Peat,12
+PeruCst_Peat,12
+Phlppns_Peat,12
+RedSeaE_Peat,12
+Salinas_Peat,12
+Salween_Peat,12
+ScndnvN_Peat,12
+Sumatra_Peat,12
+UsaCstE_Peat,12
+Yangtze_Peat,12
+Chao Phraya,11
+China Coast,11
+Great Lakes,11
+New England,11
+New Zealand,11
+Philippines,11
+Rift Valley,11
+St Lawrence,11
+Middle East,11
+South Korea,11
+PersianGulf,11
+AusInt_Peat,11
+CanAtl_Peat,11
+CongoR_Peat,11
+DouroR_Peat,11
+Hainan_Peat,11
+IndusR_Peat,11
+LaPuna_Peat,11
+LoireR_Peat,11
+MeditE_Peat,11
+MeditS_Peat,11
+Mekong_Peat,11
+MexInt_Peat,11
+NarvaR_Peat,11
+NegroR_Peat,11
+NemanR_Peat,11
+NigerR_Peat,11
+NWTerr_Peat,11
+Pampas_Peat,11
+RhineR_Peat,11
+RhoneR_Peat,11
+SeineR_Peat,11
+SepikR_Peat,11
+SinaiP_Peat,11
+Sweden_Peat,11
+TagusR_Peat,11
+Taiwan_Peat,11
+TaptiR_Peat,11
+TiberR_Peat,11
+VolgaR_Peat,11
+VoltaR_Peat,11
+WislaR_Peat,11
+ZiyaHe_Peat,11
+Java-Timor,10
+Kalimantan,10
+Madasgacar,10
+North Gulf,10
+Ohio River,10
+Papaloapan,10
+Rio Balsas,10
+South Asia,10
+ArabianSea,10
+ArkWhtRedR,10
+BarentsSea,10
+BorneoCstN,10
+California,10
+ChurchillR,10
+ColEcuaCst,10
+FranceCstS,10
+FranceCstW,10
+GreatBasin,10
+GreatLakes,10
+GuineaGulf,10
+IrrawaddyR,10
+Madagascar,10
+MagdalenaR,10
+MurrayDrlg,10
+NewZealand,10
+RiftValley,10
+RioLaPlata,10
+SabarmatiR,10
+SAmerCstNE,10
+SolomonIsl,10
+SpainCstSE,10
+TocantinsR,10
+VietnamCst,10
+AmurR_Peat,10
+BoHai_Peat,10
+EbroR_Peat,10
+ElbeR_Peat,10
+Japan_Peat,10
+Korea_Peat,10
+LChad_Peat,10
+LenaR_Peat,10
+MahiR_Peat,10
+NevaR_Peat,10
+NileR_Peat,10
+OderR_Peat,10
+OhioR_Peat,10
+Tarim_Peat,10
+TennR_Peat,10
+UralR_Peat,10
+Amu Darya,9
+Brahamani,9
+Caribbean,9
+Churchill,9
+Ems-Weser,9
+Irrawaddy,9
+Lake Chad,9
+Mackenzie,9
+Magdalena,9
+Rio Lerma,9
+Rio Verde,9
+Sabarmati,9
+Sri Lanka,9
+Syr Darya,9
+Tocantins,9
+Xun Jiang,9
+Argentina,9
+Indonesia,9
+AdnNicIsl,9
+AdrBlkSea,9
+AfrCstSSW,9
+AmuDaryaR,9
+AngolaCst,9
+BalticSea,9
+BengalBay,9
+BlackSeaN,9
+BlackSeaS,9
+BrahmaniR,9
+CaspianNE,9
+CaspianSW,9
+ChileCstN,9
+ChileCstS,9
+DniesterR,9
+DnkGrmCst,9
+EmsWeserR,9
+FarahrudR,9
+GodavariR,9
+GuadianaR,9
+HamuMashR,9
+HudsonBay,9
+IberiaCst,9
+IrianJaya,9
+ItalyCstE,9
+ItalyCstW,9
+JavaTimor,9
+MahanadiR,9
+MalaysiaP,9
+MissouriR,9
+NewCaledn,9
+PacArctic,9
+ParnaibaR,9
+Patagonia,9
+PolandCst,9
+RioBalsas,9
+RioGrande,9
+SAmerCstN,9
+SaoFrancR,9
+SChinaSea,9
+SittaungR,9
+SyrDaryaR,9
+Tehuantpc,9
+TigrEuphR,9
+UsaColoRN,9
+UsaColoRS,9
+DonR_Peat,9
+FlyR_Peat,9
+Gobi_Peat,9
+Hong_Peat,9
+IdnE_Peat,9
+Iran_Peat,9
+Dead Sea,8
+Dniester,8
+Farahrud,8
+Godavari,8
+Guadiana,8
+Huang He,8
+La Plata,8
+Parnaiba,8
+Scotland,8
+Sulawesi,8
+Tasmania,8
+Colombia,8
+Pakistan,8
+AfrCstNE,8
+AfrCstNW,8
+AfrCstSE,8
+AfrCstSW,8
+ArabianP,8
+ArgColoR,8
+CaspianE,8
+CauveryR,8
+ChaoPhrR,8
+ChinaCst,8
+DaugavaR,8
+DnieperR,8
+EJrdnSyr,8
+EngWales,8
+GrijUsuR,8
+GuadalqR,8
+HuangHeR,8
+IndCstNE,8
+KrishnaR,8
+LBalkash,8
+LimpopoR,8
+MeditIsl,8
+MexCstNW,8
+MissppRN,8
+MissppRS,8
+NarmadaR,8
+OrinocoR,8
+PapuaCst,8
+RioLerma,8
+RioVerde,8
+RusCstSE,8
+ScheldtR,8
+SenegalR,8
+ShebJubR,8
+SiberiaN,8
+SiberiaW,8
+SriLanka,8
+StLwrncR,8
+TexasCst,8
+ThaiGulf,8
+UsaCstNE,8
+UsaCstSE,8
+UsaPacNW,8
+XunJiang,8
+YeniseiR,8
+YucatanP,8
+ZambeziR,8
+ObR_Peat,8
+PoR_Peat,8
+Cauvery,7
+Daugava,7
+Dnieper,7
+Finland,7
+Gironde,7
+Helmand,7
+Iceland,7
+Ireland,7
+Krishna,7
+Limpopo,7
+Mahandi,7
+Narmada,7
+Orinoco,7
+Salween,7
+Scheldt,7
+Senegal,7
+Sittang,7
+Sumatra,7
+Yangtze,7
+Yenisey,7
+Zambezi,7
+AfrCstE,7
+AfrCstS,7
+AfrCstW,7
+AfrIntN,7
+AfrIntS,7
+AmazonR,7
+ArgCstN,7
+ArgCstS,7
+AusCstE,7
+AusCstN,7
+AusCstS,7
+AusCstW,7
+BengalW,7
+BrzCstE,7
+BrzCstN,7
+BrzCstS,7
+CntAmer,7
+DanubeR,7
+DeadSea,7
+DvinaRN,7
+FraserR,7
+GangesR,7
+IndCstE,7
+IndCstS,7
+IndCstW,7
+KaraSea,7
+MarChiq,7
+MexBaja,7
+MexCstW,7
+MexGulf,7
+NelsonR,7
+OrangeR,7
+PennarR,7
+PeruCst,7
+Phlppns,7
+RedSeaE,7
+Salinas,7
+ScndnvN,7
+UsaCstE,7
+Amazon,6
+Danube,6
+Fraser,6
+Hainan,6
+Hawaii,6
+Mekong,6
+Orange,6
+Pennar,6
+Sweden,6
+Taiwan,6
+Brazil,6
+Canada,6
+Mexico,6
+Russia,6
+AusInt,6
+CanAtl,6
+CongoR,6
+DouroR,6
+IndusR,6
+LaPuna,6
+LoireR,6
+MeditE,6
+MeditS,6
+MexInt,6
+NarvaR,6
+NegroR,6
+NemanR,6
+NigerR,6
+NWTerr,6
+Pampas,6
+RhineR,6
+RhoneR,6
+SeineR,6
+SepikR,6
+SinaiP,6
+TagusR,6
+TaptiR,6
+TiberR,6
+VolgaR,6
+VoltaR,6
+WislaR,6
+ZiyaHe,6
+Congo,5
+Douro,5
+Great,5
+Indus,5
+Japan,5
+Loire,5
+Narva,5
+Negro,5
+Neman,5
+Niger,5
+Rhine,5
+Rhone,5
+Seine,5
+Sepik,5
+Tagus,5
+Tapti,5
+Tiber,5
+Volga,5
+Volta,5
+Wisla,5
+Yasai,5
+China,5
+EU-12,5
+EU-15,5
+India,5
+AmurR,5
+BoHai,5
+EbroR,5
+ElbeR,5
+Korea,5
+LChad,5
+LenaR,5
+MahiR,5
+NevaR,5
+NileR,5
+OderR,5
+OhioR,5
+Tarim,5
+TennR,5
+UralR,5
+Amur,4
+Ebro,4
+Elbe,4
+Lena,4
+Mahi,4
+Neva,4
+Nile,4
+Oder,4
+Ural,4
+DonR,4
+FlyR,4
+Gobi,4
+Hong,4
+IdnE,4
+Iran,4
+Don,3
+Fly,3
+USA,3
+ObR,3
+PoR,3
+Ob,2
+Po,2

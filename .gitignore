@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+*.cfg
+rgcam installation.txt
+*.dat
+./processed_data/*.csv
+./raw_data/*.csv
+./series_55/
+./series_59/
+./data-system-csvs/
+
