@@ -19,11 +19,11 @@ source("./code/process_logits.R")
 calc_nodes_and_edges = function(cfg, get_logits) {
   # read inputs_tech.csv file
   inputs_tech = read.csv(cfg$inputs_tech_path)
-  inputs_tech = inputs_tech %>% filter(scenario %in% c("BASE", "base"))
+  inputs_tech = inputs_tech %>% filter(scenario %in% c("BASE", "base", "Reference", "reference"))
   
   # read inputs_resources.csv file
   inputs_resources = read.csv(cfg$inputs_resources_path)
-  inputs_resources = inputs_resources %>% filter(scenario %in% c("BASE","base"))
+  inputs_resources = inputs_resources %>% filter(scenario %in% c("BASE","base", "Reference", "reference"))
   
   # this is a list of regions to look for in node names
   # all region names will identified will be replaced by an "X" to reduce the size of the data frame and the network

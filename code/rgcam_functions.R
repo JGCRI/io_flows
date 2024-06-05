@@ -10,7 +10,7 @@ rgcam_setup = function(path_to_gcam) {
   db_path = paste0(path_to_gcam, "/output/")
   # the database should have the same name
   db_name = "database_basexdb"
-  conn = localDBConn(db_path, db_name, maxMemory = "1g")
+  conn = localDBConn(db_path, db_name, maxMemory = "2g")
   return(conn)
 }
 
@@ -21,8 +21,8 @@ rgcam_query = function(conn, query_file) {
   # perform the queries
   prj = addScenario(conn, './processed_data/my-project-name.dat', NULL, query_file, clobber = TRUE)
   # extract the relevant data
-  inputs_tech = data.frame(prj$base$`inputs by tech`)
-  inputs_resources = data.frame(prj$base$`energy inputs to resource production`)
+  inputs_tech = data.frame(prj$Reference$`inputs by tech`)
+  inputs_resources = data.frame(prj$Reference$`energy inputs to resource production`)
   
   # minor formatting tweaks
   inputs_tech = inputs_tech %>% rename(Year = year)
@@ -35,3 +35,5 @@ rgcam_query = function(conn, query_file) {
   )
   return(inputs_list)
 }
+
+conn = rgcam_setup("C:/Users/sweisberg/Documents/s70")
