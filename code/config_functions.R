@@ -19,13 +19,13 @@ write_config = function() {
                          message = "Welcome to the IO Flows data visualization tool for the GCAM model. </p> 
                          <p>The first step is to generate your config file to customize the tool to your specifications. These instructional dialogs will walk you through the process. </p> 
                          <p>For more detailed instructions, check out the documentation at the link below: </p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows"
+                         url = "https://github.com/JGCRI/io_flows"
                          )
   Sys.sleep(0.5)
   rstudioapi::showDialog(title = "Instructions",
                          message = "<p> You'll first be prompted to label your series--choose a recognizeable name. </p>
                          <p> For more detailed instructions, check out the documentation at the link below:</p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows")
+                         url = "https://github.com/JGCRI/io_flows")
   Sys.sleep(0.5)
   config_contents$series = rstudioapi::showPrompt(title = "Series Label", 
                                                   message = "What would you like your series to be labeled?",
@@ -34,7 +34,7 @@ write_config = function() {
   rstudioapi::showDialog(title = "Instructions",
                          message = "<p> Now you'll be prompted to select a directory where your nodes and edges files (used to display the network) are stored. If you haven't generated these files yet, click 'cancel' on the next screen to leave this blank. </p>
                          <p> For more detailed instructions, check out the documentation at the link below:</p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows")
+                         url = "https://github.com/JGCRI/io_flows")
   Sys.sleep(0.5)
   config_contents$nodes_and_edges_directory = rstudioapi::selectDirectory(caption = "Select a folder where nodes and edges data is located or should be written or cancel generate these files",
                                                                           label = "Select",
@@ -43,7 +43,7 @@ write_config = function() {
   rstudioapi::showDialog(title = "Instructions",
                          message = "<p>Next you'll be prompted to select two files: inputs_tech.csv and inputs_resources.csv. These files should be the outputs of queries applied to a GCAM database. Select cancel on the following dialogs to leave these fields blank and generate these files from scratch. </p>
                          <p> For more detailed instructions, check out the documentation at the link below:</p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows")
+                         url = "https://github.com/JGCRI/io_flows")
   Sys.sleep(0.5)
   config_contents$inputs_tech_path = rstudioapi::selectFile(caption = "Select your inputs_tech.csv file if it exists or cancel to generate this file",
                                                             label = "Select",
@@ -58,7 +58,7 @@ write_config = function() {
   rstudioapi::showDialog(title = "Instructions",
                          message = "<p>If the csvs from the previous step need to be generated, you'll need a local GCAM database. Select the GCAM directory here. This directory should have a folder named 'output' containing the database itself. Select cancel on the following screen to leave this field blank. </p>
                          <p> For more detailed instructions, check out the documentation at the link below:</p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows")
+                         url = "https://github.com/JGCRI/io_flows")
   Sys.sleep(0.5)
   config_contents$gcam_path = rstudioapi::selectDirectory(caption = "Select a folder where your gcam output file is located or cancel if a local gcam instance does not exist",
                                                           label = "Select",
@@ -67,7 +67,7 @@ write_config = function() {
   rstudioapi::showDialog(title = "Instructions",
                          message = "<p>Finally input the name of the xml file containing the relevant GCAM queries to generate the csv files described above. For most users, selecting the default name should suffice. </p>
                          <p> For more detailed instructions, check out the documentation at the link below:</p>",
-                         url = "https://github.com/ICTatRTI/gcam-mcs/tree/master/io_flows")
+                         url = "https://github.com/JGCRI/io_flows")
   Sys.sleep(0.5)
   config_contents$gcam_queries = rstudioapi::showPrompt(title = "Query Name", 
                                                         message = "Input the name of the gcam queries to be executed (include the extension .xml)",
