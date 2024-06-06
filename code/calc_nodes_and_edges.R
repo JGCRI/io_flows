@@ -20,7 +20,7 @@ calc_nodes_and_edges = function(cfg, get_logits) {
   # read inputs_tech.csv file
   inputs_tech = read.csv(cfg$inputs_tech_path)
   inputs_tech = inputs_tech %>% filter(scenario %in% c("BASE", "base", "Reference", "reference"))
-  
+
   # read inputs_resources.csv file
   inputs_resources = read.csv(cfg$inputs_resources_path)
   inputs_resources = inputs_resources %>% filter(scenario %in% c("BASE","base", "Reference", "reference"))
@@ -48,6 +48,10 @@ calc_nodes_and_edges = function(cfg, get_logits) {
     select(sector, subsector, technology, input) %>%
     unique()
   
+  inputs_resources = inputs_resources %>%
+    select(resource, subresource, input) %>%
+    unique()
+  
   # some of our regions are really short and common letter combinations ("Ob", "Po"), so I'm replacing words with these letters and will add them back in later
   words_to_replace = c("poultry","pork", "import", "cooling pond", "gasoline pool", "global solar")
   replacements = c("XXXX","ZZZZ","VVVV","JJJJ","QQQQ","KKKK")
@@ -60,6 +64,12 @@ calc_nodes_and_edges = function(cfg, get_logits) {
       subsector = case_when(grepl(words_to_replace[i], subsector, ignore.case = TRUE) ~ gsub(words_to_replace[i], replacements[i], subsector, ignore.case = TRUE), TRUE ~ subsector),
       technology = case_when(grepl(words_to_replace[i], technology, ignore.case = TRUE) ~ gsub(words_to_replace[i], replacements[i], technology, ignore.case = TRUE), TRUE ~ technology)
     )
+    
+    inputs_resources = inputs_resources %>% mutate(
+      input = case_when(grepl(words_to_replace[i], input, ignore.case = TRUE) ~ gsub(words_to_replace[i], replacements[i], input, ignore.case = TRUE), TRUE ~ input),
+      resource = case_when(grepl(words_to_replace[i], resource, ignore.case = TRUE) ~ gsub(words_to_replace[i], replacements[i], resource, ignore.case = TRUE), TRUE ~ resource),
+      subresource = case_when(grepl(words_to_replace[i], subresource, ignore.case = TRUE) ~ gsub(words_to_replace[i], replacements[i], subresource, ignore.case = TRUE), TRUE ~ subresource),
+    )
   }
   
   # now loop through the list of regions and replace all occurrences with an "X"
@@ -71,6 +81,12 @@ calc_nodes_and_edges = function(cfg, get_logits) {
       subsector = case_when(grepl(r, subsector) ~ gsub(r, "X", subsector), TRUE ~ subsector),
       technology = case_when(grepl(r, technology) ~ gsub(r, "X", technology), TRUE ~ technology)
     )
+    
+    inputs_resources = inputs_resources %>% mutate(
+      input = case_when(grepl(r, input) ~ gsub(r, "X", input), TRUE ~ input),
+      resource = case_when(grepl(r, resource) ~ gsub(r, "X", resource), TRUE ~ resource),
+      subresource = case_when(grepl(r, subresource) ~ gsub(r, "X", subresource), TRUE ~ subresource),
+    )
   }
   
   # reverse the common letter combinations replacements
@@ -81,10 +97,26 @@ calc_nodes_and_edges = function(cfg, get_logits) {
       subsector = case_when(grepl(replacements[i], subsector) ~ gsub(replacements[i], words_to_replace[i], subsector), TRUE ~ subsector),
       technology = case_when(grepl(replacements[i], technology) ~ gsub(replacements[i], words_to_replace[i], technology), TRUE ~ technology)
     )
+    
+    inputs_resources = inputs_resources %>% mutate(
+      input = case_when(grepl(replacements[i], input) ~ gsub(replacements[i], words_to_replace[i], input), TRUE ~ input),
+      resource = case_when(grepl(replacements[i], resource) ~ gsub(replacements[i], words_to_replace[i], resource), TRUE ~ resource),
+      subresource = case_when(grepl(replacements[i], subresource) ~ gsub(replacements[i], words_to_replace[i], subresource), TRUE ~ subresource),
+    )
   }
   
   # remove duplicate rows (reducing across regions and also years)
-  inputs_tech = inputs_tech %>% unique()
+  inputs_tech = inputs_tech %>% 
+    mutate(input = tolower(input),
+           sector = tolower(sector),
+           subsector = tolower(subsector),
+           technology = tolower(technology)) %>%
+    unique()
+  inputs_resources = inputs_resources %>%
+    mutate(input = tolower(input),
+           resource = tolower(resource),
+           subresource = tolower(subresource)) %>%
+    unique()
   
   # we don't care about these rows so get rid of them
   inputs_tech = inputs_tech %>%
