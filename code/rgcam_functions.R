@@ -35,5 +35,3 @@ rgcam_query = function(conn, query_file) {
   )
   return(inputs_list)
 }
-
-conn = rgcam_setup("C:/Users/sweisberg/Documents/s70")

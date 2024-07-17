@@ -83,6 +83,8 @@ If there are issues with the lock file being out of sync, these may be resolved 
 renv::restore(lockfile = "C:/i-o_flows/gcam-mcs/io_flows/renv.lock")
 ```
 
+Other issues with the `renv` package may be encountered on Mac operating systems, specifically when attempting to install the `rgcam` package (see next section). If any issues are encountered, users can attempt to resolve this by manually deleting the renv folder in the directory, then re-initializing the `renv` package in the current directory. 
+
 You should see this initialize the process of installing packages and dependencies to match the environment under which the tool was developed. If prompted by the installer, enter "Y" in the console to confirm the installation options.
 
 ### Setting up the rgcam package
@@ -143,6 +145,7 @@ Each subsequent prompt will include details to properly chose a relevant file or
 * **gcam_queries**: This field contains the name of the xml file containing the two queries needed to construct the input csvs. This field is filled by default and the xml file is included in the repository at `./io_flows/queries/`. Copy and paste this xml file into the queries folder in your local GCAM setup: `gcam_path/output/queries/Flow_viz_queries.xml`. The tool will execute this query on the gcam database, generate the input files, build the network, then run the tool.
 
 An example filled out config file is included below.
+
 ```
 {
   "series": "series_70",
